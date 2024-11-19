@@ -40,3 +40,9 @@ Allow coordinators to view intern progress and perform CRUD operations on intern
   4. **Compliance Issues**: A digital repository will simplify record-keeping and compliance checks.
 ## **Conclusion**<br>
 This Internship Management System aims to revolutionize how internships are managed at universities by leveraging technology to solve existing challenges. By focusing on real-time tracking, streamlined communication, and efficient administrative processes, this project will enhance the internship experience for all stakeholders involved. The hackathon provides an excellent opportunity to prototype this solution rapidly while fostering collaboration among participants.
+
+## **Colaborators**<br>
+1. ### Atishay Jain
+2. ### Murtaza Sadriwala
+3. ### Aditya Rathore
+4. ### Aditya Saxena
