@@ -11,9 +11,9 @@ Develop tools for generating reports on student progress and compliance with int
 - **Compliance Management**<br>
 Maintain a digital repository for all internship-related documents to ensure that students meet the necessary requirements.
 - **Mentor Dashboard**<br>
-Provide mentors with a dashboard to submit evaluations and marks for intern reports.
-Internship Coordinator Interface
-Allow coordinators to view intern progress and perform CRUD operations on intern records.
+Provide mentors with a dashboard to submit evaluations and marks for interns' reports.
+- **Internship Coordinator Interface**<br>
+Allow coordinators to view interns' progress and perform CRUD operations on intern records.
 - **Technical Stack**<br>
 1. **Frontend Development**: Use React or Angular for building an interactive user interface.
 2. **Backend Development**: Utilize Node.js or Django for server-side logic and database management.
@@ -41,7 +41,7 @@ Allow coordinators to view intern progress and perform CRUD operations on intern
 ## **Conclusion**<br>
 This Internship Management System aims to revolutionize how internships are managed at universities by leveraging technology to solve existing challenges. By focusing on real-time tracking, streamlined communication, and efficient administrative processes, this project will enhance the internship experience for all stakeholders involved. The hackathon provides an excellent opportunity to prototype this solution rapidly while fostering collaboration among participants.
 
-## **Colaborators**<br>
+## **Collaborators**<br>
 1. ### Atishay Jain
 2. ### Murtaza Sadriwala
 3. ### Aditya Rathore
