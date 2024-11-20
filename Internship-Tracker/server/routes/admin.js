@@ -21,8 +21,6 @@ router
   .get(auth, handle.findFaculty)
   .delete(auth, handle.deleteFaculty);
 
-router.route("/update/:id").put(auth, handle.updateProfile);
-
 router.route("/reset/:id").put(auth, handle.resetPassword);
 
 router.post("/login_admin", handle.login_admin);
