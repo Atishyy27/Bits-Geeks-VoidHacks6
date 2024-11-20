@@ -74,10 +74,10 @@ Simple and secure login system to ensure role-based access.
 
 ## **Challenges Addressed**  
 
-1. **Complex Tracking**: The dashboard will allow real-time monitoring of intern progress.  
-2. **Communication Gaps**: Centralized messaging will ensure timely interactions between all parties involved.  
-3. **Administrative Burden**: Automation of report generation and mentor assignments will reduce manual workload.  
-4. **Compliance Issues**: A digital repository will simplify record-keeping and compliance checks.  
+- [x] **Complex Tracking**: The dashboard will allow real-time monitoring of intern progress.  
+- [x] **Communication Gaps**: Centralized messaging will ensure timely interactions between all parties involved.  
+- [x] **Administrative Burden**: Automation of report generation and mentor assignments will reduce manual workload.  
+- [x] **Compliance Issues**: A digital repository will simplify record-keeping and compliance checks.  
 
 ---
 
