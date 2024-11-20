@@ -15,10 +15,10 @@ Provide mentors with a dashboard to submit evaluations and marks for interns' re
 - **Internship Coordinator Interface**<br>
 Allow coordinators to view interns' progress and perform CRUD operations on intern records.
 - **Technical Stack**<br>
-1. **Frontend Development**: Use React or Angular for building an interactive user interface.
-2. **Backend Development**: Utilize Node.js or Django for server-side logic and database management.
-3. **Database: Implement**: PostgreSQL or MongoDB for storing user data, reports, and internship records.
-4. **Mobile Application**: Use Flutter or React Native for cross-platform mobile app development.
+1. **Frontend Development**: Used React.js for developing the front end of our web-application.
+2. **Backend Development**: Node.js is used for server-side logic and database management.
+3. **Database: Implement**: Utilized MongoDB for storing user data, reports, and internship records.
+4. **Mobile Application**: Developed a cross-platform mmobile application using Flutter.
 ## **Implementation Steps**<br>
 * **Requirement Analysis**<br>
   - Conduct brainstorming sessions with stakeholders (students, faculty, administration) to finalize the requirements.
@@ -41,7 +41,7 @@ Allow coordinators to view interns' progress and perform CRUD operations on inte
 ## **Conclusion**<br>
 This Internship Management System aims to revolutionize how internships are managed at universities by leveraging technology to solve existing challenges. By focusing on real-time tracking, streamlined communication, and efficient administrative processes, this project will enhance the internship experience for all stakeholders involved. The hackathon provides an excellent opportunity to prototype this solution rapidly while fostering collaboration among participants.
 
-## **Collaborators**<br>
+## **Contributors**<br>
 1. ### Atishay Jain
 2. ### Murtaza Sadriwala
 3. ### Aditya Rathore
