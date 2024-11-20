@@ -2,8 +2,6 @@
 
 The goal of this hackathon project is to develop an Internship Management System (IMS) that addresses the challenges faced by universities in managing internships. The system will enhance tracking, communication, administrative efficiency, and compliance, ultimately improving the internship experience for students, faculty, and administrators.  
 
-![Tracking Dashboard](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern_dashboard.jpg) <!-- Add tracking dashboard screenshot -->
-
 ---
 
 ## **Key Features**  
@@ -11,7 +9,9 @@ The goal of this hackathon project is to develop an Internship Management System
 ### **Real-Time Tracking**  
 
 Implement a dashboard for faculty to monitor student progress and review submitted assignments and certificates in real-time.  
-[![Login Page](images/signin.jpg)](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern.jpg) <!-- Add login page screenshot -->
+
+![Tracking Dashboard](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern_dashboard.jpg) <!-- Add tracking dashboard screenshot -->
+![65f25c98-7928-4edf-8762-6272fbfb0dce](https://github.com/user-attachments/assets/636deb23-06cb-4f63-b4ac-cf46daaa3c66)
 
 ---
 ### **Centralized Communication Platform**  
@@ -21,7 +21,13 @@ Create a messaging system that connects students, faculty, and administration to
 ### **Administrative Automation**  
 
 - Automate the assignment of internal mentors to interns.  
-- Develop tools for generating reports on student progress and compliance with internship requirements.  
+- Develop tools for generating reports on student progress and compliance with internship requirements.
+
+### **Student Dashboard**
+Students can send weekly and biweekly reports, as well as their location using the mobile app
+![Slide 16_9 - 2](https://github.com/user-attachments/assets/810e1d5f-98e2-46d2-9b42-577a4d7709a6)
+
+
 
 ### **Mentor Dashboard**  
 
