@@ -25,12 +25,12 @@ Create a messaging system that connects students, faculty, and administration to
 ### **Mentor Dashboard**  
 
 Provide mentors with a dashboard to submit evaluations and marks for interns' reports.  
-[![Mentor Dashboard]('images\mentor.jpg')](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
+![Mentor Dashboard]('images\mentor.jpg')](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
 
 ### **Login Interface**  
 
 Simple and secure login system to ensure role-based access.  
-[![Login Page]('images\signin.jpg)](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
+![Login Page]('images\signin.jpg)](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
 
 ---
 
