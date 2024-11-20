@@ -11,9 +11,9 @@ The goal of this hackathon project is to develop an Internship Management System
 Implement a dashboard for faculty to monitor student progress and review submitted assignments and certificates in real-time.  
 
 ![Tracking Dashboard](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern_dashboard.jpg) <!-- Add tracking dashboard screenshot -->
-![65f25c98-7928-4edf-8762-6272fbfb0dce](https://github.com/user-attachments/assets/636deb23-06cb-4f63-b4ac-cf46daaa3c66)
 
 ---
+
 ### **Centralized Communication Platform**  
 
 Create a messaging system that connects students, faculty, and administration to facilitate timely feedback and approvals. 
@@ -24,26 +24,28 @@ Create a messaging system that connects students, faculty, and administration to
 - Develop tools for generating reports on student progress and compliance with internship requirements.
 
 ### **Student Dashboard**
-Students can send weekly and biweekly reports, as well as their location using the mobile app
-![Slide 16_9 - 2](https://github.com/user-attachments/assets/810e1d5f-98e2-46d2-9b42-577a4d7709a6)
 
+Students can send weekly and biweekly reports, as well as their location using the mobile app.  
 
+![Student Dashboard](https://github.com/user-attachments/assets/810e1d5f-98e2-46d2-9b42-577a4d7709a6)
 
 ### **Mentor Dashboard**  
 
 Provide mentors with a dashboard to submit evaluations and marks for interns' reports.  
+
 ![Mentor Dashboard](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
 
 ### **Login Interface**  
 
 Simple and secure login system to ensure role-based access.  
+
 ![Login Page](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
 
 ---
 
 ## **Technical Stack**  
 
-1. **Frontend Development**: Used React.js for developing the front end of our web-application.  
+1. **Frontend Development**: Used React.js for developing the front end of our web application.  
 2. **Backend Development**: Node.js is used for server-side logic and database management.  
 3. **Database**: Utilized MongoDB for storing user data, reports, and internship records.  
 4. **Mobile Application**: Developed a cross-platform mobile application using Flutter.  
@@ -59,7 +61,6 @@ Simple and secure login system to ensure role-based access.
 ### **Design Phase**  
 
 - Create wireframes and architecture diagrams for web applications.  
-
 - Define user roles (students, mentors, coordinators) and their respective functionalities.
 
 ### **Development Phase**  
@@ -70,6 +71,8 @@ Simple and secure login system to ensure role-based access.
 ### **Testing Phase**  
 
 - Perform unit testing, integration testing, and user acceptance testing with selected users to ensure functionality meets expectations.
+
+![Testing Screenshot](https://github.com/user-attachments/assets/636deb23-06cb-4f63-b4ac-cf46daaa3c66)
 
 ### **Training & Support**  
 
@@ -87,35 +90,24 @@ Simple and secure login system to ensure role-based access.
 
 ---
 
-## **Here’s a brief introduction to each feature of the Internship Management System (IMS) based on the provided codebase**:
-1. **Real-Time Tracking**
-This feature provides a dashboard for faculty to monitor student progress in real-time. It allows faculty members to review submitted assignments and certificates, ensuring that they can track the status of internships effectively.
-2. **Centralized Communication Platform**
-The system includes a messaging feature that connects students, faculty, and administration. This facilitates timely feedback and approvals, reducing communication gaps and ensuring that all parties are informed about important updates.
-3. **Administrative Automation**
-This feature automates the assignment of internal mentors to interns, streamlining the process of mentor allocation. Additionally, it includes tools for generating reports on student progress and compliance with internship requirements, reducing the administrative burden on faculty.
-4. **Compliance Management**
-The system maintains a digital repository for all internship-related documents. This ensures that students meet the necessary requirements and simplifies record-keeping and compliance checks for faculty and administration.
-5. **Mentor Dashboard**
-Mentors have access to a dedicated dashboard where they can submit evaluations and marks for interns' reports. This feature enhances the mentor's ability to provide feedback and track the performance of their assigned interns.
-6. **Internship Coordinator Interface**
-This interface allows internship coordinators to view interns' progress and perform CRUD (Create, Read, Update, Delete) operations on intern records. It provides coordinators with the tools they need to manage internship placements effectively.
-7. **Assignment Management**
-Faculty can create and manage assignments for students. This feature allows for the submission of assignments every 30 days, ensuring that students are regularly evaluated and that their progress is monitored.
-8. **Fortnightly Reports**
-The system generates fortnightly reports for interns, summarizing their progress and activities over the past 15 days. This feature helps in maintaining a consistent evaluation of intern performance.
-9. **Internship Details View**
-This feature provides detailed information about each internship application, including student details, application status, and document statuses. It allows faculty to view and manage internship applications comprehensively.
-10. **Approved Internships View**
-Faculty can view all approved internship applications, including details about the student and the internship. This feature helps in tracking which students have secured internships and their respective statuses.
-11. **Guidelines for Internships**
-The system includes a section that outlines internship guidelines for students. This feature educates students about the expectations and requirements of their internships, helping them prepare adequately.
-12. **Document Management**
-The system allows for the uploading and management of various documents related to internships, such as attendance records, application forms, and undertaking documents. This ensures that all necessary paperwork is organized and accessible.
-13. **Email Notifications**
-The system sends email notifications to students and faculty regarding important updates, such as the approval of internship applications. This feature enhances communication and keeps all stakeholders informed.
-14. **Statistics and Reporting**
-The system provides statistical insights into internship placements, including overall statistics, year-wise distributions, and class-wise distributions. This feature helps in analyzing trends and making informed decisions regarding internship programs.
+## **Features Overview**  
+
+1. **Real-Time Tracking**: Provides a dashboard for faculty to monitor student progress in real time.  
+2. **Centralized Communication Platform**: Connects students, faculty, and administration to facilitate timely updates.  
+3. **Administrative Automation**: Assigns mentors and generates reports automatically.  
+4. **Compliance Management**: Maintains a digital repository for documents.  
+5. **Mentor Dashboard**: Allows mentors to evaluate and mark reports.  
+6. **Internship Coordinator Interface**: Manages intern records and CRUD operations.  
+7. **Assignment Management**: Handles assignments submitted every 30 days.  
+8. **Fortnightly Reports**: Generates detailed 15-day performance reports.  
+9. **Internship Details View**: Provides comprehensive information on applications.  
+10. **Approved Internships View**: Tracks and displays approved applications.  
+11. **Internship Guidelines**: Offers clear expectations for students.  
+12. **Document Management**: Organizes necessary paperwork.  
+13. **Email Notifications**: Sends alerts about approvals and updates.  
+14. **Statistics and Reporting**: Analyzes trends with year-wise and class-wise distributions.  
+
+---
 
 ## **Conclusion**  
 
