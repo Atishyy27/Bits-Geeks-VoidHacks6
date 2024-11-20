@@ -1,8 +1,8 @@
 # **Introduction**
 
 The goal of this hackathon project is to develop an Internship Management System (IMS) that addresses the challenges faced by universities in managing internships. The system will enhance tracking, communication, administrative efficiency, and compliance, ultimately improving the internship experience for students, faculty, and administrators.  
-
-![[Dashboard Screenshot]('images\intern_dashboard.jpg') ](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern.jpg)<!-- Add the home screen or dashboard image -->
+[![Tracking Dashboard]('images\intern.jp')](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern_dashboard.jpg) <!-- Add tracking dashboard screenshot -->
+or dashboard image -->
 
 ---
 
@@ -11,8 +11,8 @@ The goal of this hackathon project is to develop an Internship Management System
 ### **Real-Time Tracking**  
 
 Implement a dashboard for faculty to monitor student progress and review submitted assignments and certificates in real-time.  
-![Tracking Dashboard]('images\intern.jp') <!-- Add tracking dashboard screenshot -->
 
+![[Dashboard Screenshot]('images\intern_dashboard.jpg') ](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern.jpg)<!-- Add the home screen 
 ### **Centralized Communication Platform**  
 
 Create a messaging system that connects students, faculty, and administration to facilitate timely feedback and approvals. 
@@ -25,12 +25,12 @@ Create a messaging system that connects students, faculty, and administration to
 ### **Mentor Dashboard**  
 
 Provide mentors with a dashboard to submit evaluations and marks for interns' reports.  
-![Mentor Dashboard]('images\mentor.jpg') <!-- Add mentor dashboard screenshot -->
+[![Mentor Dashboard]('images\mentor.jpg')](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
 
 ### **Login Interface**  
 
 Simple and secure login system to ensure role-based access.  
-![Login Page]('images\signin.jpg) <!-- Add login page screenshot -->
+[![Login Page]('images\signin.jpg)](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
 
 ---
 
