@@ -11,8 +11,8 @@ The goal of this hackathon project is to develop an Internship Management System
 ### **Real-Time Tracking**  
 
 Implement a dashboard for faculty to monitor student progress and review submitted assignments and certificates in real-time.  
-![Login Page](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
-
+![Login Page](images/signin.jpg) <!-- Add login page screenshot -->
+!
 ---
 ### **Centralized Communication Platform**  
 
@@ -31,7 +31,7 @@ Provide mentors with a dashboard to submit evaluations and marks for interns' re
 ### **Login Interface**  
 
 Simple and secure login system to ensure role-based access.  
-![Login Page]('images\signin.jpg)](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
+![Login Page](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/signin.jpg) <!-- Add login page screenshot -->
 
 ---
 
