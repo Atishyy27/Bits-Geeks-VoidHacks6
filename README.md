@@ -25,7 +25,7 @@ Create a messaging system that connects students, faculty, and administration to
 ### **Mentor Dashboard**  
 
 Provide mentors with a dashboard to submit evaluations and marks for interns' reports.  
-![Mentor Dashboard]('images\mentor.jpg')](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
+![Mentor Dashboard](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/mentor.jpg) <!-- Add mentor dashboard screenshot -->
 
 ### **Login Interface**  
 
