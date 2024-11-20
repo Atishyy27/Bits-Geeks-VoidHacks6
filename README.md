@@ -2,7 +2,7 @@
 
 The goal of this hackathon project is to develop an Internship Management System (IMS) that addresses the challenges faced by universities in managing internships. The system will enhance tracking, communication, administrative efficiency, and compliance, ultimately improving the internship experience for students, faculty, and administrators.  
 
-![Dashboard Screenshot]('images\intern_dashboard.jpg') <!-- Add the home screen or dashboard image -->
+![[Dashboard Screenshot]('images\intern_dashboard.jpg') ](https://github.com/Atishyy27/Bits-Geeks-VoidHacks6/blob/main/images/intern.jpg)<!-- Add the home screen or dashboard image -->
 
 ---
 
