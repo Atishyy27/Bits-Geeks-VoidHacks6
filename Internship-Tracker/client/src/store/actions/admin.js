@@ -56,9 +56,8 @@ export const getAdmin = () => async (dispatch) => {
 export const deleteStudents = (data) => {
   return async (dispatch) => {
     try {
-      console.log(data);
-      const admin = await api.call("put", "admin/deletestudent", data);
-      dispatch(addSuccess(admin));
+      const response = await api.call("put", "admin/deletestudent", data);
+      dispatch(addSuccess(response));
       dispatch(removeError());
     } catch (err) {
       dispatch(addError("Something went wrong. Try again."));
@@ -71,13 +70,10 @@ export const createTeacher = (data) => {
     try {
       const teacher = await api.call("post", "admin/add", data);
       dispatch(setCurrentTeacher(teacher));
-      const success = "Faculty added!";
       dispatch(removeError());
-      dispatch(removeSuccessMessage());
-      dispatch(addSuccess(success));
+      dispatch(addSuccess("Faculty added!"));
     } catch (err) {
       const error = err.response.data;
-      dispatch(removeSuccessMessage());
       dispatch(addError(error.message));
     }
   };
