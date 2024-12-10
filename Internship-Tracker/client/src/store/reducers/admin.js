@@ -50,3 +50,26 @@ export const someStudentlist = (state = [], action) => {
       return state;
   }
 };
+
+const initialState = {
+  adminData: null,
+  error: null,
+};
+
+const adminReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'GET_ADMIN_SUCCESS':
+      return {
+        ...state,
+        adminData: action.payload,
+        error: null,
+      };
+    case 'GET_ADMIN_FAILURE':
+      return {
+        ...state,
+        error: action.payload,
+      };
+    default:
+      return state;
+  }
+};

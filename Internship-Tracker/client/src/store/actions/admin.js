@@ -8,6 +8,7 @@ import {
 } from "../actionTypes";
 import { addError, removeError } from "./error";
 import { addSuccess, removeSuccessMessage } from "./success";
+import axios from 'axios';
 
 export const setCurrentAdmin = (admin) => ({
   type: SET_CURRENT_SELECTED_ADMIN,
@@ -33,17 +34,24 @@ export const setCurrentTeacher = (teacher) => ({
   teacher,
 });
 
-export const getAdmin = (path) => {
-  return async (dispatch) => {
-    try {
-      const admin = await api.call("get", "admin/");
-      dispatch(setCurrentAdmin(admin));
-      dispatch(removeError());
-    } catch (err) {
-      const error = err.response.data;
-      dispatch(addError(error.message));
+export const getAdmin = () => async (dispatch) => {
+  try {
+    const response = await axios.get('http://localhost:4000/api/admin', {
+      // No Authorization header needed
+    });
+    dispatch({ type: 'GET_ADMIN_SUCCESS', payload: response.data });
+  } catch (err) {
+    if (err.response) {
+      console.error('Error response:', err.response);
+      dispatch({ type: 'GET_ADMIN_FAILURE', payload: err.response.data });
+    } else if (err.request) {
+      console.error('Error request:', err.request);
+      dispatch({ type: 'GET_ADMIN_FAILURE', payload: { message: 'No response received from server.' } });
+    } else {
+      console.error('Error message:', err.message);
+      dispatch({ type: 'GET_ADMIN_FAILURE', payload: { message: err.message } });
     }
-  };
+  }
 };
 export const deleteStudents = (data) => {
   return async (dispatch) => {

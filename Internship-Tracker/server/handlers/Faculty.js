@@ -9,7 +9,7 @@ exports.showFacultyProfile = async (req, res, next) => {
     if (Profile) {
       return res.json(Profile);
     } else {
-      throw new Error("Not an admin");
+      throw new Error("Faculty not found");
     }
   } catch (error) {
     next({

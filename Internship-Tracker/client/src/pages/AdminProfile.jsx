@@ -69,6 +69,12 @@ class AdminProfile extends Component {
   }
 
   render() {
+    const { data } = this.state;
+
+    if (!data || !data.name) {
+      return <div>Loading...</div>;
+    }
+
     return (
       <div>
         <div className="row no-gutters">

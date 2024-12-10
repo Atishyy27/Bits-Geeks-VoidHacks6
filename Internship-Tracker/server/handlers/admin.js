@@ -84,7 +84,7 @@ exports.addFaculty = async (req, res, next) => {
         "</b><br/><a href='http://localhost:3000/login'>Click here to login.</a>";
       let content =
         "BEGIN:VCALENDAR\r\nPRODID:-//ACME/DesktopCalendar//EN\r\nMETHOD:REQUEST\r\n...";
-      var email = {
+      const email = {
         from: process.env.EMAILFROM,
         to: Fac.emailId,
         subject: "Registered to IMS.",
@@ -135,43 +135,35 @@ exports.findFaculty = async (req, res, next) => {
 
 exports.findAll = async (req, res, next) => {
   try {
-    const faculties = await db.Faculty.find().populate("faculties");
+    const faculties = users.faculty;
     res.status(200).json(faculties);
   } catch (err) {
-    err.status(400);
-    next(err);
+    next({ status: 400, message: err.message });
   }
 };
 
 exports.deleteFaculty = async (req, res, next) => {
   try {
     const { user } = req.params;
-    const faculty = await db.Faculty.findOne({ username: user });
-    if (!faculty) throw new Error("Faculty not found");
-    await faculty.remove();
+    const facultyIndex = users.faculty.findIndex(f => f.username === user);
+    if (facultyIndex === -1) throw new Error("Faculty not found");
+    users.faculty.splice(facultyIndex, 1); // Remove faculty from mock data
     return res.status(200).json("Faculty deleted");
   } catch (error) {
-    next({
-      status: 400,
-      message: error.message,
-    });
+    next({ status: 400, message: error.message });
   }
 };
 
 exports.showProfile = async (req, res, next) => {
   try {
-    const { id } = req.decoded;
-    const Profile = await db.Faculty.findOne({ _id: id, designation: "Admin" });
-    if (Profile) {
-      return res.status(200).json(Profile);
-    } else {
-      throw new Error("Not an admin.");
+    const adminProfile = users.admin.find(admin => admin.username === req.body.username);
+    if (!adminProfile) {
+      return next({ status: 404, message: 'Admin not found' });
     }
+    res.status(200).json(adminProfile);
   } catch (error) {
-    next({
-      status: 400,
-      message: error.message,
-    });
+    console.error("Error fetching profile:", error);
+    next({ status: 400, message: error.message });
   }
 };
 
